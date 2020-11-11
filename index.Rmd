@@ -1,137 +1,47 @@
 ---
-title: "UTEC Competitive programming training - Summer 2020"
+title: "Competitive Programming Club UTEC (CPC-UTEC)"
 ---
 
-Here you can find the material developed in this training and a [collection of
-images](./gallery.html).
+Competitive Programming Club UTEC (CPC-UTEC) is an organization at UTEC. You can found us on [Facebook](https://www.facebook.com/CPC.UTEC/) or you can contact us writing to cpc@utc.edu.pe.
 
-## **Couches**
-- José Leonidas García Gonzales - [\@TISparta](https://github.com/TISparta/) - jose.garcia@utec.edu.pe
-- Giordano Mitchell Alvitez Falcon - [\@GioCS17](https://github.com/GioCS17) - giordano.alvitez@utec.edu.pe
-- Jorge Ignacio Fiestas Lavezzolo - [\@Jorgefiestas](https://github.com/Jorgefiestas) - jorge.fiestas@utec.edu.pe
+If you want to join the group the process of admission can be found [here](./images/organization/selection.jpg). The admission contest are held in the first weeks of every semester.
 
-## **Classes**
+# Activities
 
-Each class lasts two hours. Classes have a theorical and practical part. The
-theorical part consists of a lecture-style class. The practical part is a set
-of problems in a contest using [vjudge](https://vjudge.net/). The solutions of the problems are
-posted when the contest finishes. Moreover, each class have some recommended readings. Furthermore, from Monday to Friday there is a daily problem to practice, you can find them [here](./daily-problem.html).
+### *+ Lecture 3: Optimum branching*
+Next week 
 
-The classes are on Monday and Wednesday in UTEC at A801 from 17:00 to 19:00.
+### *+ Lecture 2: Wavelet trees*
+This week
 
-We are following this [schedule](./schedule.html).
+### *+ Lecture 1: Segment trees*
+Jorge Fiestas taught one of the more famous topics of competitive programming in a very friendly way.
 
-These links can help you navigate through the material developed.
++ [Notes](./lectures/lecture-01/notes.pdf)
++ [Recording](https://utec.zoom.us/rec/share/JfY6zm83NJGgEPtfrgJfQnVLJMKWlxAhzREBrEdpVEWNIxEt270l7Ur8jKipVQPq.ie-slaUZtjVn1xIH?startTime=1604791504000)
 
-<div id="classes"></div>
+### *+ Beginner training 2020-II*
+Good trainings must be done more than once. All the material of this training can be found [here](https://github.com/CPC-UTEC/theory/tree/master/2020-II).
 
-### *Week 1*
-- [01-06-2020] - Class 01 - Introduction 
-  + [Theory](./class-01.html)
-  + [Contest](https://vjudge.net/contest/350658)
-  + [Solutions](./class-01.html#contest)
-  + [Readings](./schedule.html#s-class-01)
+### *+ Beginner training 2020-I*
+We introduced student to competitive programming teaching topics such as STL, asymptotic analysis, complete search, binary search and basic topic of graphs. All the material of this training can be found [here](https://github.com/CPC-UTEC/theory/tree/master/2020-I).
 
-- [01-08-2020] - Class 02 - Asymptotic Analysis
-  + [Theory](./class-02.html)
-  + [Contest](https://vjudge.net/contest/350901)
-  + [Solutions](./class-02.html#contest)
-  + [Readings](./schedule.html#s-class-02)
-
-### *Week 2*
-- [01-13-2020] - Class 03 - STL
-  + [Theory](./class-03.html)
-  + [Contest](https://vjudge.net/contest/351569)
-  + [Solutions](./class-03.html#contest)
-  + [Readings](./schedule.html#s-class-03)
-
-- [01-15-2020] - Class 04 - Complete Search I
-  + [Theory](./class-04.html)
-  + [Contest](https://vjudge.net/contest/352372)
-  + [Solutions](./class-04.html#contest)
-  + [Readings](./schedule.html#s-class-04)
-
-### *Week 3*
-- [01-20-2020] - Class 05 - Complete Search II
-  + [Theory](./class-05.html)
-  + [Contest](https://vjudge.net/contest/353073)
-  + [Solutions](./class-05.html#contest)
-  + [Readings](./schedule.html#s-class-05)
-
-- [01-22-2020] - Class 06 - Complete Search III
-  + [Theory](./class-06.html)
-  + [Contest](https://vjudge.net/contest/353470)
-  + [Solutions](./class-06.html#contest)
-  + [Readings](./schedule.html#s-class-06)
-
-### *Week 4*
-- [01-27-2020] - Class 07 - Complete Search IV
-  + [Theory](./class-07.html)
-  + [Contest](https://vjudge.net/contest/354002)
-  + [Solutions](./class-07.html#contest)
-  + [Readings](./schedule.html#s-class-07)
-
-- [01-29-2020] - Class 08 - Complete Search V
-  + [Theory](./class-08.html)
-  + [Contest](https://vjudge.net/contest/354334)
-  + [Solutions](./class-08.html#contest)
-  + [Readings](./schedule.html#s-class-08)
-
-### *Week 5*
-- [02-03-2020] - Class 09 - Contest I
-  + [Theory](./class-09.html)
-  + [Contest](https://vjudge.net/contest/355171)
-  + [Upsolving](https://vjudge.net/contest/355256)
-  + [Solutions](./class-09.html#contest)
-
-### *Week 6*
-- [02-10-2020] - Class 10 - Contest UTEC-UNI-UPC I
-  + [Theory](./class-10.html)
-  + [Contest](https://codeforces.com/group/qWRAoRrTOT/contest/268759)
-  + [Solutions](https://codeforces.com/group/qWRAoRrTOT/blog/entry/5475)
-
-### *Week 7*
-- [02-17-2020] - Class 11 - Divide and Conquer I
-  + [Theory](./class-11.html)
-  + [Contest](https://vjudge.net/contest/357719)
-  + [Solutions](./class-11.html#contest)
-  + [Readings](./schedule.html#s-class-11)
-
-- [02-19-2020] - Class 12 - Divide and Conquer II
-  + [Theory](./class-12.html)
-  + [Contest](https://vjudge.net/contest/359160)
-  + [Solutions](./class-12.html#contest)
-  + [Readings](./schedule.html#s-class-12)
-
-### *Week 8*
-- [02-24-2020] - Class 13 - Game Theory I
-  + [Theory](./class-13.html)
-  + [Contest](https://vjudge.net/contest/359163)
-  + [Solutions](./class-13.html#contest)
-  + [Readings](./schedule.html#s-class-13)
-
-- [02-26-2020] - Class 14 - Game Theory II
-  + [Theory](./class-14.html)
-  + [Contest](https://vjudge.net/contest/359378)
-  + [Solutions](./class-14.html#contest)
-  + [Readings](./schedule.html#s-class-14)
+### *+ Contest UNI vs UPC vs UTEC: II*
+We hold another contest in the same spirit of the previous one. You can find more info about the contest [here](./class-16.html) and some pictures [here](./gallery.html).
 
 
-### *Week 9*
-- [03-02-2020] - Class 15 - Contest II
-  + [Theory](./class-15.html)
-  + [Contest](https://vjudge.net/contest/360361)
-  + [Solutions](./class-15.html#contest)
+### *+ Contest UNI vs UPC vs UTEC: I*
+It has held an online contest were beginners of UNI, UPC and UTEC competed in an original contest prepared by the 
+coaches of these universities. You can find more info about the contest [here](./class-10.html) and some pictures 
+[here](./gallery.html).
 
-- [03-04-2020] - Class 16 - Contest UTEC-UNI-UPC II
-  + [Theory](./class-16.html)
-  + [Contest](https://codeforces.com/group/qWRAoRrTOT/contest/271109)
+### *+ UTEC competitive programming training - Summer 2020*
+It was a 9-week program to introduce students to competitive programming. The topics covered were complete search, 
+divide and conquer and game theory. More information can be found [here](./index-summer.html)
 
-
-The repository of this page can be found [here](https://github.com/CP-UTEC/Lessons).
+The repository of this page can be found [here](https://github.com/CPC-UTEC/blog).
 
 <script>
-$('#all-summer').collapse('show');
 $("#index-page")
   .addClass("active");
 </script>
