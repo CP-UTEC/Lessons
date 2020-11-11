@@ -2,7 +2,7 @@
 title: "Competitive Programming Club UTEC (CPC-UTEC)"
 ---
 
-Competitive Programming Club UTEC (CPC-UTEC) is an organization at UTEC. You can found us on [Facebook](https://www.facebook.com/CPC.UTEC/) or you can contact us writing to cpc@utc.edu.pe.
+Competitive Programming Club UTEC (CPC-UTEC) is an organization at UTEC. You can found us on [Facebook](https://www.facebook.com/CPC.UTEC/) or you can contact us writing to cpc@utec.edu.pe.
 
 If you want to join the group the process of admission can be found [here](./images/organization/selection.jpg). The admission contest are held in the first weeks of every semester.
 
