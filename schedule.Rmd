@@ -219,6 +219,7 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 <div id="final"></div>
 
 <script>
+$('#all-summer').collapse('show');
 $("#schedule-page")
   .addClass("active");
 </script>

@@ -131,6 +131,7 @@ These links can help you navigate through the material developed.
 The repository of this page can be found [here](https://github.com/CP-UTEC/Lessons).
 
 <script>
+$('#all-summer').collapse('show');
 $("#index-page")
   .addClass("active");
 </script>

@@ -46,6 +46,7 @@ solutions. Try joining the group or write us if you have any problem.
 </div>
 
 <script>
+  $('#all-summer').collapse('show');
   $('#all-classes').collapse('show');
   $('#class-16').addClass('active');
   const cur_class = document.getElementById('class-16');

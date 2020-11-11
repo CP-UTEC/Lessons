@@ -456,6 +456,7 @@ int main () {
 </div>
 
 <script>
+  $('#all-summer').collapse('show');
   $('#all-classes').collapse('show');
   $('#class-02').addClass('active');
   const cur_class = document.getElementById('class-02');

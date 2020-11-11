@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>README.utf8.md</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="icon" href="./images/organization/logo.png">
+<!-- Gallery library -->
+<link rel="stylesheet" type="text/css" href="lib/lightbox.min.css">
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 54px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+
+.section h2 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+.section h3 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+.section h4 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+.section h5 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+.section h6 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+<div class="wrapper">
+
+<!-- Sidebar Holder -->
+<nav id="sidebar">
+<div class="sidebar-header">
+  <img src="images/organization/logo.png"></img>
+  <h3 style="text-align: left;">
+    <a style="text-decoration: none;"href="./landing.html">
+      Competitive Programming Club (CPC)
+    </a>
+  </h3>
+  <strong>
+    <a style="text-decoration: none;"href="./landing.html">
+    CPC-UTEC
+    </a>
+  </strong>
+</div>
+
+<div id="dismiss-left">
+  <i class="fa fa-arrow-left"></i>
+</div>
+
+<div id="dismiss-right">
+  <i class="fa fa-arrow-right"></i>
+</div>
+
+<ul class="list-unstyled components">
+
+  <div class="line"></div>
+
+  <li id="landing">
+    <a href="./landing.html">
+      Home
+    </a>
+  </li>
+
+  <div class="line"></div>
+
+  <li id="summer-page-not-expanded">
+    <a href="./index.html">
+      Summer training
+    </a>
+  </li>
+
+  <li id="summer-page-expanded">
+    <a id="classes" href="#all-summer" data-toggle="collapse"
+      aria-expanded="false">
+      Summer training
+    </a>
+
+    <ul class="collapse list-unstyled" id="all-summer">
+    
+    <li id="index-page">
+      <a href="./index.html">
+        Home
+      </a>
+    </li>
+
+    <div class="line"></div>
+
+    <li id="schedule-page">
+      <a href="./schedule.html">
+        Schedule
+      </a>
+    </li>
+
+    <div class="line"></div>
+
+    <li id="classes-page-expanded">
+      <a id="classes" href="#all-classes" data-toggle="collapse"
+        aria-expanded="false">
+        Classes
+      </a>
+      <ul class="collapse list-unstyled" id="all-classes">
+        <li id="class-01">
+          <a href="./class-01.html">1. Introduction</a>
+        </li>
+        <li id="class-02">
+          <a href="./class-02.html">2. Asymptotic Analysis</a>
+        </li>
+        <li id="class-03">
+          <a href="./class-03.html">3. Standard Template Library</a>
+        </li>
+        <li id="class-04">
+          <a href="./class-04.html">4. Complete Search I</a>
+        </li>
+        <li id="class-05">
+          <a href="./class-05.html">5. Complete Search II</a>
+        </li>
+        <li id="class-06">
+          <a href="./class-06.html">6. Complete Search III</a>
+        </li>
+        <li id="class-07">
+          <a href="./class-07.html">7. Complete Search IV</a>
+        </li>
+        <li id="class-08">
+          <a href="./class-08.html">8. Complete Search V</a>
+        </li>
+        <li id="class-09">
+          <a href="./class-09.html">9. Contest I</a>
+        </li>
+        <li id="class-10">
+          <a href="./class-10.html">10. Contest UTEC-UNI-UPC I</a>
+        </li>
+        <li id="class-11">
+          <a href="./class-11.html">11. Divide and Conquer I</a>
+        </li>
+        <li id="class-12">
+          <a href="./class-12.html">12. Divide and Conquer II</a>
+        </li>
+        <li id="class-13">
+          <a href="./class-13.html">13. Game Theory I</a>
+        </li>
+        <li id="class-14">
+          <a href="./class-14.html">14. Game Theory II</a>
+        </li>
+        <li id="class-15">
+          <a href="./class-15.html">15. Contest II</a>
+        </li>
+        <li id="class-16">
+          <a href="./class-16.html">16. Contest UTEC-UNI-UPC II</a>
+        </li>
+      </ul>
+    </li>
+
+    <div class="line"></div>
+
+    <li id="classes-page-not-expanded">
+      <a href="./classes.html">
+        Classes
+      </a>
+    </li>
+
+  </li>
+
+  <div class="line"></div>
+
+  <li id="daily-problem-page">
+    <a href="./daily-problem.html">
+      Daily problem
+    </a>
+  </li>
+
+  </ul>
+
+  <div class="line"></div>
+
+  <li id="gallery-page">
+    <a href="./gallery.html">
+      Gallery
+    </a>
+  </li>
+
+  <div class="line"></div>
+
+</ul>
+
+
+<!--
+<ul class="list-unstyled">
+  <li>
+    <a href="https://www.utec.edu.pe/" target="_blank" class="logo">
+      <img src="images/page/utec-logo.png" alt="UTEC logo">
+    </a>
+  </li>
+</ul>
+-->
+</nav>
+
+<div id="expand-icon-right">
+  <i class="fa fa-angle-right"></i>
+</div>
+
+<div id="expand-icon-left">
+  <i class="fa fa-angle-left"></i>
+</div>
+
+<!-- Page Content Holder -->
+<div id="content">
+<script>
+$(".main-container")
+  .removeClass("main-container")
+  .removeClass("container-fluid")
+</script>
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="lessons" class="section level1">
+<h1>Lessons</h1>
+<p>Competitive Programming Lessons at Utec</p>
+</div>
+<div id="build-the-web" class="section level1">
+<h1>Build the web</h1>
+<pre class="bash"><code>bash build.sh</code></pre>
+</div>
+
+</div> <!-- ends wrapper -->
+</div> <!-- ends content -->
+
+
+<script type="text/javascript">
+
+$(document).ready(function () {
+  $('#dismiss-left').on('click', function () {
+    $('#sidebar, #content').addClass('active');
+  });
+
+  $('#dismiss-right').on('click', function () {
+    $('#sidebar, #content').removeClass('active');
+  });
+
+  $('#expand-icon-right').on('click', function () {
+    document.getElementById('sidebar').style.width = "90px";
+    document.getElementById('expand-icon-right').style.display = "none";
+    document.getElementById('expand-icon-left').style.display = "block";
+    $('#expand-icon-left').addClass('moved');
+    $('#expand-icon-right').addClass('moved');
+  });
+
+  $('#expand-icon-left').on('click', function () {
+    document.getElementById('sidebar').style.width = "0px";
+    document.getElementById('expand-icon-right').style.display = "block";
+    document.getElementById('expand-icon-left').style.display = "none";
+    $('#expand-icon-left').removeClass('moved');
+    $('#expand-icon-right').removeClass('moved');
+  });
+
+});
+
+</script>
+
+<script type="text/javascript" src="lib/lightbox-plus-jquery.min.js"></script>
+
+<!--
+<footer>
+  <p>Copyright &copy; 2020. Competitive Programming UTEC</p>
+</footer>
+-->
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -105,7 +105,7 @@ title: "Classes"
   + [Contest](https://codeforces.com/group/qWRAoRrTOT/contest/271109)
 
 
-The repository of this page can be found [here](https://github.com/CP-UTEC/Lessons).
+The repository of this page can be found [here](https://github.com/CPC-UTEC/blog).
 
 
 <script>

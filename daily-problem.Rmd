@@ -2193,6 +2193,7 @@ int main () {
 
 
 <script>
+$('#all-summer').collapse('show');
 $("#daily-problem-page")
   .addClass("active");
 </script>

@@ -276,6 +276,15 @@ a[aria-expanded="true"]::before {
   display: none;
 }
 
+#sidebar ul #summer-page-expanded {
+  display: block;
+}
+
+#sidebar ul #summer-page-not-expanded {
+  display: none;
+}
+
+
 /* Shrinking the sidebar from 250px to 90px */
 #sidebar.active {
   min-width: 90px;
@@ -308,6 +317,14 @@ a[aria-expanded="true"]::before {
 
 #sidebar.active ul ul a {
   padding: 10px !important;
+}
+
+#sidebar.active ul #summer-page-expanded {
+  display: none;
+}
+
+#sidebar.active ul #summer-page-not-expanded {
+  display: block;
 }
 
 #sidebar.active ul #classes-page-expanded {
@@ -389,6 +406,15 @@ a[aria-expanded="true"]::before {
   #sidebar ul ul a {
     padding: 10px !important;
   }
+
+  #sidebar ul #summer-page-expanded {
+    display: none;
+  }
+
+  #sidebar ul #summer-page-not-expanded {
+    display: block;
+  }
+
 
   #sidebar ul #classes-page-expanded {
     display: none;

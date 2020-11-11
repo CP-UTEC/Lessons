@@ -1,0 +1,47 @@
+---
+title: "Competitive Programming Club UTEC (CPC-UTEC)"
+---
+
+Competitive Programming Club UTEC (CPC-UTEC) is an organization at UTEC. You can found us on [Facebook](https://www.facebook.com/CPC.UTEC/) or you can contact us writing to cpc@utc.edu.pe.
+
+If you want to join the group the process of admission can be found [here](./images/organization/selection.jpg). The admission contest are held in the first weeks of every semester.
+
+# Activities
+
+### *+ Lecture 3: Optimum branching*
+Next week 
+
+### *+ Lecture 2: Wavelet trees*
+This week
+
+### *+ Lecture 1: Segment trees*
+Jorge Fiestas taught one of the more famous topics of competitive programming in a very friendly way.
+
++ [Notes](./lectures/lecture-01/notes.pdf)
++ [Recording](https://utec.zoom.us/rec/share/JfY6zm83NJGgEPtfrgJfQnVLJMKWlxAhzREBrEdpVEWNIxEt270l7Ur8jKipVQPq.ie-slaUZtjVn1xIH?startTime=1604791504000)
+
+### *+ Beginner training 2020-II*
+Good trainings must be done more than once. All the material of this training can be found [here](https://github.com/CPC-UTEC/theory/tree/master/2020-II).
+
+### *+ Beginner training 2020-I*
+We introduced student to competitive programming teaching topics such as STL, asymptotic analysis, complete search, binary search and basic topic of graphs. All the material of this training can be found [here](https://github.com/CPC-UTEC/theory/tree/master/2020-I).
+
+### *+ Contest UNI vs UPC vs UTEC: II*
+We hold another contest in the same spirit of the previous one. You can find more info about the contest [here](./class-16.html) and some pictures [here](./gallery.html).
+
+
+### *+ Contest UNI vs UPC vs UTEC: I*
+It has held an online contest were beginners of UNI, UPC and UTEC competed in an original contest prepared by the 
+coaches of these universities. You can find more info about the contest [here](./class-10.html) and some pictures 
+[here](./gallery.html).
+
+### *+ UTEC competitive programming training - Summer 2020*
+It was a 9-week program to introduce students to competitive programming. The topics covered were complete search, 
+divide and conquer and game theory. More information can be found [here](./index.html)
+
+The repository of this page can be found [here](https://github.com/CPC-UTEC/blog).
+
+<script>
+$("#index-page")
+  .addClass("active");
+</script>

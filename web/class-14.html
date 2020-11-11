@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
 <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -14,7 +14,6 @@
 <title>Class 14: Game Theory II</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-<script src="site_libs/elevate-section-attrs-2.0/elevate-section-attrs.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -23,10 +22,12 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 <!--Let browser know website is optimized for mobile-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="icon" href="./images/organization/logo.png">
 <!-- Gallery library -->
 <link rel="stylesheet" type="text/css" href="lib/lightbox.min.css">
 
@@ -77,7 +78,9 @@ h6 {
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
+</head>
 
+<body>
 
 <style type = "text/css">
 .main-container {
@@ -91,6 +94,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -100,9 +104,6 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
-}
-summary {
-  display: list-item;
 }
 </style>
 
@@ -118,6 +119,7 @@ body {
   padding-top: 59px;
   margin-top: -59px;
 }
+
 .section h2 {
   padding-top: 59px;
   margin-top: -59px;
@@ -137,43 +139,6 @@ body {
 .section h6 {
   padding-top: 59px;
   margin-top: -59px;
-}
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -195,74 +160,19 @@ $(document).ready(function () {
 });
 </script>
 
+
+<div class="container-fluid main-container">
+
 <!-- tabsets -->
-
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
-
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: transparent;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
-
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
-}
-</style>
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
 
 <!-- code folding -->
 
 
-
-
-</head>
-
-<body>
-
-
-<div class="container-fluid main-container">
 
 
 
@@ -271,14 +181,15 @@ $(document).ready(function () {
 <!-- Sidebar Holder -->
 <nav id="sidebar">
 <div class="sidebar-header">
+  <img src="images/organization/logo.png"></img>
   <h3 style="text-align: left;">
-    <a style="text-decoration: none;"href="./index.html">
-      Competitive programming UTEC
+    <a style="text-decoration: none;"href="./landing.html">
+      Competitive Programming Club (CPC)
     </a>
   </h3>
   <strong>
-    <a style="text-decoration: none;"href="./index.html">
-    CP-UTEC
+    <a style="text-decoration: none;"href="./landing.html">
+    CPC-UTEC
     </a>
   </strong>
 </div>
@@ -294,86 +205,110 @@ $(document).ready(function () {
 <ul class="list-unstyled components">
 
   <div class="line"></div>
-  
-  <li id="index-page">
-    <a href="./index.html">
+
+  <li id="landing">
+    <a href="./landing.html">
       Home
     </a>
   </li>
 
   <div class="line"></div>
 
-  <li id="schedule-page">
-    <a href="./schedule.html">
-      Schedule
+  <li id="summer-page-not-expanded">
+    <a href="./index.html">
+      Summer training
     </a>
   </li>
 
-  <div class="line"></div>
-
-  <li id="classes-page-expanded">
-    <a id="classes" href="#all-classes" data-toggle="collapse"
+  <li id="summer-page-expanded">
+    <a id="classes" href="#all-summer" data-toggle="collapse"
       aria-expanded="false">
-      Classes
+      Summer training
     </a>
-    <ul class="collapse list-unstyled" id="all-classes">
-      <li id="class-01">
-        <a href="./class-01.html">1. Introduction</a>
-      </li>
-      <li id="class-02">
-        <a href="./class-02.html">2. Asymptotic Analysis</a>
-      </li>
-      <li id="class-03">
-        <a href="./class-03.html">3. Standard Template Library</a>
-      </li>
-      <li id="class-04">
-        <a href="./class-04.html">4. Complete Search I</a>
-      </li>
-      <li id="class-05">
-        <a href="./class-05.html">5. Complete Search II</a>
-      </li>
-      <li id="class-06">
-        <a href="./class-06.html">6. Complete Search III</a>
-      </li>
-      <li id="class-07">
-        <a href="./class-07.html">7. Complete Search IV</a>
-      </li>
-      <li id="class-08">
-        <a href="./class-08.html">8. Complete Search V</a>
-      </li>
-      <li id="class-09">
-        <a href="./class-09.html">9. Contest I</a>
-      </li>
-      <li id="class-10">
-        <a href="./class-10.html">10. Contest UTEC-UNI-UPC I</a>
-      </li>
-      <li id="class-11">
-        <a href="./class-11.html">11. Divide and Conquer I</a>
-      </li>
-      <li id="class-12">
-        <a href="./class-12.html">12. Divide and Conquer II</a>
-      </li>
-      <li id="class-13">
-        <a href="./class-13.html">13. Game Theory I</a>
-      </li>
-      <li id="class-14">
-        <a href="./class-14.html">14. Game Theory II</a>
-      </li>
-      <li id="class-15">
-        <a href="./class-15.html">15. Contest II</a>
-      </li>
-      <li id="class-16">
-        <a href="./class-15.html">16. Contest UTEC-UNI-UPC II</a>
-      </li>
-    </ul>
-  </li>
 
-  <div class="line"></div>
+    <ul class="collapse list-unstyled" id="all-summer">
+    
+    <li id="index-page">
+      <a href="./index.html">
+        Home
+      </a>
+    </li>
 
-  <li id="classes-page-not-expanded">
-    <a href="./classes.html">
-      Classes
-    </a>
+    <div class="line"></div>
+
+    <li id="schedule-page">
+      <a href="./schedule.html">
+        Schedule
+      </a>
+    </li>
+
+    <div class="line"></div>
+
+    <li id="classes-page-expanded">
+      <a id="classes" href="#all-classes" data-toggle="collapse"
+        aria-expanded="false">
+        Classes
+      </a>
+      <ul class="collapse list-unstyled" id="all-classes">
+        <li id="class-01">
+          <a href="./class-01.html">1. Introduction</a>
+        </li>
+        <li id="class-02">
+          <a href="./class-02.html">2. Asymptotic Analysis</a>
+        </li>
+        <li id="class-03">
+          <a href="./class-03.html">3. Standard Template Library</a>
+        </li>
+        <li id="class-04">
+          <a href="./class-04.html">4. Complete Search I</a>
+        </li>
+        <li id="class-05">
+          <a href="./class-05.html">5. Complete Search II</a>
+        </li>
+        <li id="class-06">
+          <a href="./class-06.html">6. Complete Search III</a>
+        </li>
+        <li id="class-07">
+          <a href="./class-07.html">7. Complete Search IV</a>
+        </li>
+        <li id="class-08">
+          <a href="./class-08.html">8. Complete Search V</a>
+        </li>
+        <li id="class-09">
+          <a href="./class-09.html">9. Contest I</a>
+        </li>
+        <li id="class-10">
+          <a href="./class-10.html">10. Contest UTEC-UNI-UPC I</a>
+        </li>
+        <li id="class-11">
+          <a href="./class-11.html">11. Divide and Conquer I</a>
+        </li>
+        <li id="class-12">
+          <a href="./class-12.html">12. Divide and Conquer II</a>
+        </li>
+        <li id="class-13">
+          <a href="./class-13.html">13. Game Theory I</a>
+        </li>
+        <li id="class-14">
+          <a href="./class-14.html">14. Game Theory II</a>
+        </li>
+        <li id="class-15">
+          <a href="./class-15.html">15. Contest II</a>
+        </li>
+        <li id="class-16">
+          <a href="./class-16.html">16. Contest UTEC-UNI-UPC II</a>
+        </li>
+      </ul>
+    </li>
+
+    <div class="line"></div>
+
+    <li id="classes-page-not-expanded">
+      <a href="./classes.html">
+        Classes
+      </a>
+    </li>
+
   </li>
 
   <div class="line"></div>
@@ -383,6 +318,8 @@ $(document).ready(function () {
       Daily problem
     </a>
   </li>
+
+  </ul>
 
   <div class="line"></div>
 
@@ -429,7 +366,7 @@ $(".main-container")
 
 
 <h1 class="title toc-ignore">Class 14: Game Theory II</h1>
-<h4 class="date">02-26-2020</h4>
+<h4 class="date"><em>02-26-2020</em></h4>
 
 </div>
 
@@ -661,7 +598,7 @@ A: Misère Nim
 </div>
 <!-- begin body -->
 <div id="collapseProblemA" class="collapse">
-<div id="misère-nim" class="section level3 card-body solution-body">
+<div id="misere-nim" class="section level3 card-body solution-body">
 <h3><a href="https://www.hackerrank.com/challenges/misere-nim-1/problem" target="_blank">Misère Nim</a></h3>
 <p>Check the section Misère Games of this class.</p>
 <!-- begin code -->
@@ -959,6 +896,7 @@ int main() {
      data-toggle="tooltip" title="Game Theory I"> Previous </a></p>
 </div>
 <script>
+  $('#all-summer').collapse('show');
   $('#all-classes').collapse('show');
   $('#class-14').addClass('active');
   const cur_class = document.getElementById('class-14');
@@ -1028,23 +966,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
