@@ -12,7 +12,8 @@ If you want to join the group the process of admission can be found [here](./ima
 Next week 
 
 ### *+ Lecture 2: Wavelet trees*
-This week
++ [Notes](./lectures/lecture-02/overview.md)
++ Sorry, there was a problem with the recording
 
 ### *+ Lecture 1: Segment trees*
 Jorge Fiestas taught one of the more famous topics of competitive programming in a very friendly way.
